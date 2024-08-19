@@ -1,6 +1,6 @@
-pip install pandas
-pip install matplotlib
-pip install PySide6
+@echo off
 
-cd %USERPROFILE%
-python %USERPROFILE%\RESILISTORM-tool-main\RESILISTORM.py
+%USERPROFILE%\miniconda3\Scripts\conda.exe
+%USERPROFILE%\Desktop\RESILISTORM\RESILISTORM-tool-main\RESILISTORM.py
+
+pause
